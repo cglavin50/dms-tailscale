@@ -9,15 +9,15 @@ PluginComponent {
     id: root
 
     property bool isConnected: false
+    property int refreshInterval: pluginData.refreshInterval || 5
 
     Timer {
-        interval: 5000  // Check every 5 seconds
+        interval: root.refreshInterval * 1000
         running: true
         repeat: true
         onTriggered: statusCheck.running = true
     }
 
-    // Process to check Tailscale status
     Process {
         id: statusCheck
         command: ["tailscale", "status", "--json"]

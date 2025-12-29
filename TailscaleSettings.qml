@@ -30,4 +30,15 @@ PluginSettings {
         color: Theme.warningText
         wrapMode: Text.WordWrap
     }
+
+    SliderSetting {
+        settingKey: "refreshInterval"
+        label: "Refresh Interval"
+        description: "Context refresh interval (in seconds)."
+        defaultValue: 5
+        minimum: 1
+        maximum: 600
+        unit: "sec"
+        leftIcon: "schedule"
+    }
 }
