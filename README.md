@@ -4,7 +4,6 @@ A simple DankMaterialShell (DMS) Bar widget for toggling your Tailscale connecti
 
 ---
 
-![Screenshot](./plugin.png)
 ![Screenshot](./plugin-notif.png)
 
 ## Installation

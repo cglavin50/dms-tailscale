@@ -1,5 +1,5 @@
 {
-  "id": "dms-tailscale",
+  "id": "tailscale",
   "name": "Tailscale Manager",
   "description": "Widget for managing tailscale connection",
   "version": "1.0.0",
