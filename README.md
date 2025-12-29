@@ -2,6 +2,11 @@
 
 A simple DankMaterialShell (DMS) Bar widget for toggling your Tailscale connection. Requires the [Tailscale cli](https://tailscale.com/kb/1080/cli) to be installed, as well as any initial authentication to be configured. As Tailscale persists auth, after an initial successful authentication session, this plugin can run without requiring any sensitive information.
 
+---
+
+![Screenshot](./plugin.png)
+![Screenshot](./plugin-notif.png)
+
 ## Installation
 
 ```
