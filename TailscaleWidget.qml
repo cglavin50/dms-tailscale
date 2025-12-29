@@ -81,7 +81,7 @@ PluginComponent {
                 DankIcon {
                     name: root.isConnected ? "vpn_key" : "vpn_key_off"
                     size: Theme.iconSize - 6
-                    color: Theme.surfaceText
+                    color: root.isConnected ? Theme.primary : Theme.surfaceText
                     anchors.verticalCenter: parent.verticalCenter
                     visible: root.showIcon
                 }
@@ -103,7 +103,7 @@ PluginComponent {
                 DankIcon {
                     name: root.isConnected ? "vpn_key" : "vpn_key_off"
                     size: Theme.iconSize - 6
-                    color: Theme.surfaceText
+                    color: root.isConnected ? Theme.primary : Theme.surfaceText
                     anchors.verticalCenter: parent.verticalCenter
                     visible: root.showIcon
                 }
