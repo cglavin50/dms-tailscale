@@ -17,7 +17,7 @@ PluginSettings {
 
     StyledText {
         width: parent.width
-        text: "Click the widget in your bar to toggle Tailscale connection"
+        text: "Click the widget to toggle Tailscale, view exit nodes, and route traffic through them."
         font.pixelSize: Theme.fontSizeSmall
         color: Theme.surfaceVariantText
         wrapMode: Text.WordWrap
