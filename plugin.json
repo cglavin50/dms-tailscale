@@ -1,8 +1,8 @@
 {
   "id": "tailscale",
   "name": "Tailscale Manager",
-  "description": "Widget for managing tailscale connection",
-  "version": "1.0.0",
+  "description": "Widget for managing Tailscale connection and exit nodes",
+  "version": "2.0.0",
   "author": "Cooper Glavin",
   "icon": "widgets",
   "type": "widget",
